@@ -1,0 +1,29 @@
+#container {
+  margin-top: 25px;
+  margin-right: 40px;
+  display: grid;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 320px;
+  width: 320px;
+}
+
+.label-container {
+  display: flex;
+  gap: 2px;
+}
+
+.slider {
+  width: 325px;
+}
+
+.box{
+  background-color: white;
+  border: 1px solid black;
+}
+
+.hoveredbox {
+  background-color: black;
+}
